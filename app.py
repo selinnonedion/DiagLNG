@@ -3,8 +3,8 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 import os
 
-from telegram_bot import start, add_symptom, add_factor, add_lab, diagnose, clear_data
 
+from telegram_bot import start, add_symptom, add_factor, add_lab, diagnose, data
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 app = Flask(__name__)
